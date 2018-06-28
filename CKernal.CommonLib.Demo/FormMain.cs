@@ -8,12 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CKernal.CommonLib.CSV;
+using CKernal.CommonLib.Demo.CSV;
+using CKernal.CommonLib.Demo.Setting;
 
 namespace CKernal.CommonLib.Demo
 {
     public partial class FormMain : Form
     {
-        private CSV.CsvHelperDemo csvHelperDemo = new CSV.CsvHelperDemo();
 
         public FormMain()
         {
@@ -22,7 +23,9 @@ namespace CKernal.CommonLib.Demo
 
         private void btn_Test_Click(object sender, EventArgs e)
         {
-            csvHelperDemo.CsvHelperReadWriteTest();
+            //CsvHelperDemo.CsvHelperReadWriteTest();
+            CustomSettingDemo.Save();
+            CustomSettingDemo.Load();
         }
     }
 }

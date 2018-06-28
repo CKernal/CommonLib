@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="CSV\CsvHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setting\CustomSettingPersistence.cs" />
+    <Compile Include="Xml\XElementExtend.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

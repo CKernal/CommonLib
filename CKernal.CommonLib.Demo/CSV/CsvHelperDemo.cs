@@ -1,16 +1,13 @@
 ﻿using CKernal.CommonLib.CSV;
 using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CKernal.CommonLib.Demo.CSV
 {
     public class CsvHelperDemo
     {
-        public void CsvHelperReadWriteTest()
+        public static void CsvHelperReadWriteTest()
         {
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
             sw.Restart();
