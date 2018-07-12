@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKernal.CommonLib", "CKernal.CommonLib\CKernal.CommonLib.csproj", "{6C924D44-DF67-4D39-9588-269F5C0EC406}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\CommonLib.csproj", "{6C924D44-DF67-4D39-9588-269F5C0EC406}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKernal.CommonLib.Demo", "CKernal.CommonLib.Demo\CKernal.CommonLib.Demo.csproj", "{47477680-542E-4690-85D5-D4E895CEE684}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib.Demo", "CommonLib.Demo\CommonLib.Demo.csproj", "{47477680-542E-4690-85D5-D4E895CEE684}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CKernal.CommonLib.Demo.Properties {
+namespace CommonLib.Demo.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

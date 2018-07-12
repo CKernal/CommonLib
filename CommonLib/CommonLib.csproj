@@ -7,8 +7,8 @@
     <ProjectGuid>{6C924D44-DF67-4D39-9588-269F5C0EC406}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CKernal.CommonLib</RootNamespace>
-    <AssemblyName>CKernal.CommonLib</AssemblyName>
+    <RootNamespace>CommonLib</RootNamespace>
+    <AssemblyName>CommonLib</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

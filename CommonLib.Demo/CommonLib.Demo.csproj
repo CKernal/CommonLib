@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{47477680-542E-4690-85D5-D4E895CEE684}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CKernal.CommonLib.Demo</RootNamespace>
-    <AssemblyName>CKernal.CommonLib.Demo</AssemblyName>
+    <RootNamespace>CommonLib.Demo</RootNamespace>
+    <AssemblyName>CommonLib.Demo</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -86,9 +86,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CKernal.CommonLib\CKernal.CommonLib.csproj">
+    <ProjectReference Include="..\CommonLib\CommonLib.csproj">
       <Project>{6c924d44-df67-4d39-9588-269f5c0ec406}</Project>
-      <Name>CKernal.CommonLib</Name>
+      <Name>CommonLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
