@@ -1,9 +1,9 @@
-﻿using CKernal.CommonLib.CSV;
+﻿using CommonLib.CSV;
 using System;
 using System.Data;
 using System.Linq;
 
-namespace CKernal.CommonLib.Demo.CSV
+namespace CommonLib.Demo.CSV
 {
     public class CsvHelperDemo
     {

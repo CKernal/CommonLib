@@ -1,5 +1,5 @@
 ﻿
-namespace CKernal.CommonLib.Demo.Setting
+namespace CommonLib.Demo.Setting
 {
     class CustomSetting : CommonLib.Setting.CustomSettingPersistence
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CKernal.CommonLib.Network;
+using CommonLib.Network;
 
-namespace CKernal.CommonLib.Demo.Network
+namespace CommonLib.Demo.Network
 {
     public class IpHelperDemo
     {

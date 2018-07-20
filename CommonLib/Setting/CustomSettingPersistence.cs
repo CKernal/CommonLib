@@ -1,14 +1,14 @@
-﻿using CKernal.CommonLib.Xml;
+﻿using CommonLib.Xml;
 using System;
 using System.IO;
 using System.Reflection;
 using System.Xml.Linq;
 
-namespace CKernal.CommonLib.Setting
+namespace CommonLib.Setting
 {
     public class CustomSettingPersistence
     {
-        private static readonly string m_directory = new FileInfo(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName).Directory.FullName;
+        private static readonly string m_directory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         private static readonly string m_directoryPath = Path.Combine(m_directory, "Settings");
 
         private void CreateDirectory()

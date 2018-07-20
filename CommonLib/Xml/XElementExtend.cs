@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml.Linq;
 
-namespace CKernal.CommonLib.Xml
+namespace CommonLib.Xml
 {
     public static class XElementExtend
     {

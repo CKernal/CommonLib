@@ -1,4 +1,4 @@
-﻿using CKernal.CommonLib.Setting;
+﻿using CommonLib.Setting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CKernal.CommonLib.Demo.Setting
+namespace CommonLib.Demo.Setting
 {
     public class CustomSettingDemo
     {
