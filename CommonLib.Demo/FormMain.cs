@@ -29,22 +29,39 @@ namespace CommonLib.Demo
                 , true);
             this.UpdateStyles();
 
-            for (int i = 0; i < 96; i++)
-            {
-                ChannelUI channelUI = new ChannelUI(i);
-                if ((i + 1) % 8 == 0)
-                {
-                    flowLayoutPanel1.SetFlowBreak(channelUI, true);
-                }
-                flowLayoutPanel1.Controls.Add(channelUI);
+            TrayDetailBase tray = new TrayDetail();
+            tray.Dock = DockStyle.Fill;
+            tabPage1.Controls.Add(tray);
 
-            }
+
             //flowLayoutPanel1.VerticalScroll.LargeChange = 1;
             //flowLayoutPanel1.VerticalScroll.SmallChange = 1;
         }
 
         private void btn_Test_Click(object sender, EventArgs e)
         {
+            string xxxx = Language.LanguageHelper.GetControlResourcesString(this, "TestA");
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
+            xxxx = Language.LanguageHelper.GetControlResourcesString(this, "TestA");
+
+
+            ComponentResourceManager resources = new ComponentResourceManager(typeof(FormMain));
+            System.Reflection.FieldInfo[] fieldInfo = this.GetType().GetFields(System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            for (int i = 0; i < fieldInfo.Length; i++)
+            {
+                System.Diagnostics.Trace.WriteLine(fieldInfo[i].Name);
+
+            }
+
+            //Type type = this.btn_Test.GetType();
+            //string name = type.Name;
+            //resources.ApplyResources(this.btn_Test, name);
+
+            //foreach (Control ctl in this.Controls)
+            //{
+            //    resources.ApplyResources(ctl, ctl.Name);
+            //}
+            //resources.ApplyResources(btn_Test, "btn_Test");
             //CsvHelperDemo.CsvHelperReadWriteTest();
             //CustomSettingDemo.Save();
             //CustomSettingDemo.Load();

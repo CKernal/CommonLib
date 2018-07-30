@@ -38,7 +38,7 @@ namespace CommonLib.Demo
             g.DrawRectangle(Pens.Red, m_rectangle);
 
             g.DrawString(m_channel.ToString(), this.Font, Brushes.Blue, m_rectangle);
-            g.DrawRectangle(Pens.Red, m_rectangle);
+            g.DrawRectangle(Pens.Red, this.ClientRectangle);
             //g.FillRectangle(Brushes.LightYellow, m_rectangle);
         }
 
