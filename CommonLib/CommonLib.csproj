@@ -45,7 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CSV\CsvHelper.cs" />
-    <Compile Include="Language\LanguageHelper.cs" />
+    <Compile Include="Extend\EnumExt.cs" />
+    <Compile Include="Language\Language.cs" />
     <Compile Include="Network\IpHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setting\CustomSettingPersistence.cs" />

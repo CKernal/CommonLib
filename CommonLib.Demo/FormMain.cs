@@ -40,9 +40,9 @@ namespace CommonLib.Demo
 
         private void btn_Test_Click(object sender, EventArgs e)
         {
-            string xxxx = Language.LanguageHelper.GetControlResourcesString(this, "TestA");
+            string xxxx = Language.Language.GetControlResourcesString(this, "TestA");
             System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
-            xxxx = Language.LanguageHelper.GetControlResourcesString(this, "TestA");
+            xxxx = Language.Language.GetControlResourcesString(this, "TestA");
 
 
             ComponentResourceManager resources = new ComponentResourceManager(typeof(FormMain));
